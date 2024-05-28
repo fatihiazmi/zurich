@@ -1,68 +1,104 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Ogg-Regular';
+    src: url('assets/fonts/Ogg-Regular.woff') format('woff'),
+        url('assets/fonts/Ogg-Regular.woff2') format('woff2'),
+        url('assets/fonts/Ogg-Regular?#iefix') format('embedded-opentype')
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+@font-face {
+    font-family: 'ZurichSans-Bold';
+    src: url('assets/fonts/ZurichSans-Bold.woff') format('woff');
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@font-face {
+    font-family: 'ZurichSans-Medium';
+    src: url('assets/fonts/ZurichSans-Medium.woff') format('woff');
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+@font-face {
+    font-family: 'ZurichSans-Regular';
+    src: url('assets/fonts/ZurichSans-Regular.woff') format('woff');
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+@font-face {
+    font-family: 'ZurichSans-Light';
+    src: url('assets/fonts/ZurichSans-Light.woff') format('woff');
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#slider-section {
+    background-color: #5495CF;
+    color: #fff;
+    font-family: 'ZurichSans-Medium', sans-serif;
+}
+
+.ogg {
+    font-family: 'Ogg-Regular', serif;
+}
+
+.z-light {
+    font-family: 'ZurichSans-Light', sans-serif;
+}
+
+.z-bold {
+    font-family: 'ZurichSans-Bold', sans-serif;
+}
+
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    /* Full-width */
+    height: 7px;
+    /* Specified height */
+    background: url(/public/slider.png);
+    background-size: cover;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 23px;
+    /* Set a specific slider handle width */
+    height: 24px;
+    /* Slider handle height */
+    background: url(/public/slider-handle.png);
+    background-size: cover;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 23px;
+    /* Set a specific slider handle width */
+    height: 24px;
+    /* Slider handle height */
+    background: url(/public/slider-handle.png);
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
 }

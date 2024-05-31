@@ -66,7 +66,7 @@ export default function App() {
                 defaultValue={1}
                 max={3}
               />
-              <div className="flex relative z-10 justify-between top-2 px-4 xl:top-[0.5rem]">
+              <div className="flex relative z-10 justify-between top-2 xl:top-[0.5rem]">
                 <p className="xl:text-[1rem]">12,000KM</p>
                 <p className="xl:text-[1rem]">6,000KM</p>
                 <p className="xl:text-[1rem]">3,000KM</p>
@@ -82,15 +82,15 @@ export default function App() {
           >
             <a href="https://www.google.com/">
               <button className="ml-[0.3rem] w-[16.1rem] text-[1.25rem] bg-[#23366F] p-3 rounded-full xl:text-[1.5rem] xl:p-[1rem]">
-                Get a quote now!
+                Get a quote now
               </button>
             </a>
           </div>
           <div
             id="slider-headline"
-            className="order-3 mt-4 sm:mt-[4.6rem] mx-7 w-[20rem] sm:w-[30rem] md:w-[35rem] xl:order-2 xl:mx-[4.5rem] xl:mt-[14rem]"
+            className="order-3 mt-4 sm:mt-[4.6rem] mx-7 w-[90%] sm:w-[30rem] md:w-[35rem] xl:order-2 xl:mx-[4.5rem] xl:mt-[14rem]"
           >
-            <div className="">
+            <div className="w-[15rem] sm:w-[30rem] m-auto">
               <h2 className="text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3rem]">
                 Toggle the milage bar to see how you
               </h2>
@@ -98,7 +98,7 @@ export default function App() {
                 pay less when you drive less!
               </h2>
             </div>
-            <p className="text-md sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 sm:pr-10 xl:w-[38rem] xl:text-[1.45rem] xl:leading-[1.75rem]">
+            <p className="z-light w-[15rem] sm:w-[30rem] m-auto text-[0.8rem] sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 xl:w-[38rem] xl:text-[1.45rem] xl:leading-[1.75rem]">
               *Savings are calculated in comparison to Z-Driver Car Takaful
               annual contributions totalling RM965 based on a customer profile
               in 2024.

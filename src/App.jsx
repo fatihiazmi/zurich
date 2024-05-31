@@ -94,11 +94,11 @@ export default function App() {
               <h2 className="text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3rem]">
                 Toggle the milage bar to see how you
               </h2>
-              <h2 className="ogg text-[#ECEEEF] text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[4.5rem] xl:leading-[6rem]">
+              <h2 className="ogg text-[#ECEEEF] text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3.5rem] xl:leading-[6rem]">
                 pay less when you drive less!
               </h2>
             </div>
-            <p className="z-light w-[15rem] sm:w-[30rem] m-auto text-[0.8rem] sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 xl:w-[38rem] xl:text-[1.45rem] xl:leading-[1.75rem]">
+            <p className="z-light w-[15rem] sm:w-[30rem] m-auto text-[0.8rem] sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 xl:w-[35rem] xl:text-[1.45rem] xl:leading-[1.75rem]">
               *Savings are calculated in comparison to Z-Driver Car Takaful
               annual contributions totalling RM965 based on a customer profile
               in 2024.

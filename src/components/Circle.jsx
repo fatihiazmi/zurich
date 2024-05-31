@@ -1,6 +1,6 @@
 import React from "react";
 
-const Circle = ({ width, height, style, children, sliderClass }) => {
+const Circle = ({ style, children, sliderClass }) => {
   return (
     <>
       <div className={`${style} circle-${sliderClass}`}>{children}</div>

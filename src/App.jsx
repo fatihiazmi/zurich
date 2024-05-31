@@ -94,7 +94,7 @@ export default function App() {
               <h2 className="text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3rem]">
                 Toggle the milage bar to see how you
               </h2>
-              <h2 className="ogg text-[#ECEEEF] text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3.5rem] xl:leading-[4.5rem]">
+              <h2 className="ogg text-[#ECEEEF] text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3.5rem] xl:leading-[4rem]">
                 pay less when you drive less!
               </h2>
             </div>

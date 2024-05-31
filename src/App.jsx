@@ -98,7 +98,7 @@ export default function App() {
                 pay less when you drive less!
               </h2>
             </div>
-            <p className="z-light w-[15rem] sm:w-[30rem] m-auto text-[0.8rem] sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 xl:w-[35rem] xl:text-[1.45rem] xl:leading-[1.75rem]">
+            <p className="z-light w-[15rem] sm:w-[30rem] m-auto text-[0.8rem] sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 xl:w-[34rem] xl:text-[1.45rem] xl:leading-[1.75rem]">
               *Savings are calculated in comparison to Z-Driver Car Takaful
               annual contributions totalling RM965 based on a customer profile
               in 2024.

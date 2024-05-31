@@ -225,7 +225,7 @@ body {
   }
 }
 
-@media (min-width: 1540px) {
+@media (min-width: 1536px) {
   #slider-container {
     left: 10.2rem;
   }
@@ -258,6 +258,12 @@ body {
 @media (min-width: 1644px) {
   #slider-container input {
     height: 12px;
+  }
+}
+
+@media (min-width: 1714px) {
+  #slider-container {
+    left: 11rem;
   }
 }
 

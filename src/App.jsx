@@ -32,7 +32,7 @@ export default function App() {
   return (
     <>
       <section id="slider-section">
-        <div className=" relative flex flex-col-reverse items-center xl:grid xl:grid-cols-4 xl:grid-rows-1">
+        <div className=" relative flex flex-col-reverse items-center xl:grid xl:grid-cols-4 xl:grid-rows-1 xl:pt-6">
           <div
             id="slider-illustration"
             className="order-2 xl:order-1 mt-6 mb-9 xl:mb-0 xl:mt-0 relative xl:relative xl:top-[5rem]"

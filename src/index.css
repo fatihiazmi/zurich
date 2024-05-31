@@ -225,6 +225,12 @@ body {
   }
 }
 
+@media (min-width: 1540px) {
+  #slider-container {
+    left: 10.2rem;
+  }
+}
+
 @media (min-width: 1574px) {
   #slider-container {
     left: 10.5rem;

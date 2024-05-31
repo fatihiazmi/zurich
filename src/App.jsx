@@ -32,10 +32,10 @@ export default function App() {
   return (
     <>
       <section id="slider-section">
-        <div className=" relative flex flex-col-reverse items-center xl:grid xl:grid-cols-4 xl:grid-rows-2 xl:gap-x-0 xl:gap-y-0">
+        <div className=" relative flex flex-col-reverse items-center xl:grid xl:grid-cols-4 xl:grid-rows-1">
           <div
             id="slider-illustration"
-            className="order-2 xl:order-1 mt-6 mb-9 xl:mb-0 xl:mt-0 relative"
+            className="order-2 xl:order-1 mt-6 mb-9 xl:mb-0 xl:mt-0 relative xl:relative xl:top-[5rem]"
           >
             <Circle
               style="m-auto w-[20rem] h-[20rem] sm:w-[27rem] sm:h-[27rem] rounded-full xl:w-[35rem] xl:h-[35rem] xl:mt-[0] xl:relative xl:top-[-8rem] xl:left-[4rem]"
@@ -78,7 +78,7 @@ export default function App() {
           </div>
           <div
             id="quote-btn"
-            className="order-1 xl:order-3 mb-8 xl:ml-[4.5rem] xl:mt-[-31rem]"
+            className="order-1 xl:order-3 mb-8 xl:ml-[4.5rem] xl:mt-[-5rem]"
           >
             <a href="https://www.google.com/">
               <button className="ml-[0.3rem] w-[16.1rem] text-[1.25rem] bg-[#23366F] p-3 rounded-full xl:text-[1.5rem] xl:p-[1rem]">
@@ -88,7 +88,7 @@ export default function App() {
           </div>
           <div
             id="slider-headline"
-            className="order-3 mt-4 sm:mt-[4.6rem] mx-7 w-[90%] sm:w-[30rem] md:w-[35rem] xl:order-2 xl:mx-[4.5rem] xl:mt-[14rem]"
+            className="order-3 mt-4 sm:mt-[4.6rem] mx-7 w-[90%] sm:w-[30rem] md:w-[35rem] xl:order-2 xl:mx-[4.5rem] xl:mt-[2rem]"
           >
             <div className="w-[15rem] sm:w-[30rem] m-auto">
               <h2 className="text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3rem]">

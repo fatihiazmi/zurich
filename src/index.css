@@ -202,7 +202,11 @@ body {
     height: 9px;
   }
 }
-
+@media (min-width: 1444px) {
+  #slider-container {
+    left: 11rem;
+  }
+}
 @media (min-width: 1445px) {
   #slider-container input {
     height: 9px;
@@ -221,6 +225,11 @@ body {
   }
 }
 
+@media (min-width: 1574px) {
+  #slider-container {
+    left: 10.5rem;
+  }
+}
 
 @media (min-width: 1588px) {
   #slider-container input {
@@ -253,6 +262,9 @@ body {
 }
 
 @media (min-width: 1920px) {
+  #slider-container {
+    left: 10.5rem;
+  }
   #slider-container input {
     height: 14px;
   }

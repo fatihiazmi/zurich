@@ -151,7 +151,27 @@ body{
                       linear-gradient(0deg, #2167ae 50%, transparent 50%);
 }
 
+@media (min-width: 1430px) {
+  #semi-circle{
+    bottom: 4rem;
+  }
+}
+@media (min-width: 1590px) {
+  #semi-circle{
+    bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1738px) {
+  #semi-circle{
+    bottom: -0.7em;
+  }
+}
+
 @media (min-width: 1875px) {
+  #semi-circle{
+    bottom: -1.4rem;
+  }
   #slider-container input{
     height: 11px;
   }

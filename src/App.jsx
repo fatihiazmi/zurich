@@ -49,7 +49,7 @@ export default function App() {
                   You save <span className="z-bold">RM{sliderText}</span>/year*
                 </p>
                 <img
-                  className="w-[12rem] mt-8 sm:w-[16rem] sm:mt-10 xl:w-[25rem] xl:mt-[3rem]"
+                  className="w-[12rem] mt-8 sm:w-[16rem] sm:mt-10 xl:w-[18rem] xl:mt-[3rem]"
                   src="car.png"
                 />
               </div>
@@ -67,9 +67,9 @@ export default function App() {
                 max={3}
               />
               <div className="flex relative z-10 justify-between top-2 xl:top-[0.5rem]">
-                <p className="xl:text-[1rem]">12,000KM</p>
-                <p className="xl:text-[1rem]">6,000KM</p>
-                <p className="xl:text-[1rem]">3,000KM</p>
+                <p className="xl:text-[1.3rem]">12,000KM</p>
+                <p className="xl:text-[1.3rem]">6,000KM</p>
+                <p className="xl:text-[1.3rem]">3,000KM</p>
               </div>
             </div>
             <div id="semi-circle" className="absolute bottom-[3.6rem] left-[-2rem] sm:bottom-[0.5rem] xl:bottom-[5.7rem] xl:left-[5rem] 2xl:bottom-[2rem]">
@@ -91,14 +91,14 @@ export default function App() {
             className="order-3 mt-4 sm:mt-[4.6rem] mx-7 w-[90%] sm:w-[30rem] md:w-[35rem] xl:order-2 xl:mx-[4.5rem] xl:mt-[2rem]"
           >
             <div className="w-[15rem] sm:w-[30rem] m-auto">
-              <h2 className="text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3rem]">
-                Toggle the milage bar to see how you
+              <h2 className="text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[2rem] xl:leading-[2.5rem] xl:w-[70%]">
+                Toggle the mileage bar to see how you
               </h2>
               <h2 className="ogg text-[#ECEEEF] text-[2rem] leading-[2.4rem] sm:text-[3.5rem] sm:leading-[3.5rem] xl:text-[3.5rem] xl:leading-[4rem]">
                 pay less when you drive less!
               </h2>
             </div>
-            <p className="z-light w-[15rem] sm:w-[30rem] m-auto text-[0.8rem] sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 xl:w-[34rem] xl:text-[1.45rem] xl:leading-[1.75rem]">
+            <p className="z-light w-[15rem] sm:w-[30rem] m-auto text-[0.8rem] sm:text-[1.2rem] mt-2 leading-5 sm:mt-9 sm:text-2xl sm:leading-6 xl:w-[23rem] xl:text-[1rem] xl:leading-[1.4rem] xl:mt-8 xl:mx-10">
               *Savings are calculated in comparison to Z-Driver Car Takaful
               annual contributions totalling RM965 based on a customer profile
               in 2024.

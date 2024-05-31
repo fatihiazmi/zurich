@@ -217,19 +217,43 @@ body {
 
 @media (min-width: 1527px) {
   #slider-container input {
+    height: 10px;
+  }
+}
+
+@media (min-width: 1588px) {
+  #slider-container input {
+    height: 11px;
+  }
+}
+
+@media (min-width: 1605px) {
+  #slider-container input {
     height: 11px;
   }
 }
 
 @media (min-width: 1640px) {
   #slider-container input {
-    height: 13px;
+    height: 12px;
   }
 }
 
 @media (min-width: 1644px) {
   #slider-container input {
     height: 12px;
+  }
+}
+
+@media (min-width: 1854px) {
+  #slider-container input {
+    height: 13px;
+  }
+}
+
+@media (min-width: 1920px) {
+  #slider-container input {
+    height: 14px;
   }
 }
 

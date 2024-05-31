@@ -209,9 +209,9 @@ body {
   }
 }
 
-@media (min-width: 1527px) {
-  #slider-container input {
-    height: 10px;
+@media (min-width: 1500px) {
+  #slider-container {
+    left: 11.5rem;
   }
 }
 
@@ -220,6 +220,7 @@ body {
     height: 10px;
   }
 }
+
 
 @media (min-width: 1588px) {
   #slider-container input {

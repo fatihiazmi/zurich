@@ -49,14 +49,14 @@ export default function App() {
                   You save <span className="z-bold">RM{sliderText}</span>/year*
                 </p>
                 <img
-                  className="w-[12rem] mt-8 sm:w-[16rem] sm:mt-10 xl:w-[18rem] xl:mt-[3rem]"
+                  className="w-[12rem] mt-10 sm:w-[16rem] sm:mt-10 xl:w-[18rem] xl:mt-[3rem]"
                   src="car.png"
                 />
               </div>
             </Circle>
             <div
               id="slider-container"
-              className="w-full px-6 xl:relative xl:px-0 xl:top-[-8rem] left-[10.5rem] xl:w-[68%] 2xl:w-[76%]"
+              className="w-full px-6 xl:relative xl:px-0 xl:top-[-8rem] left-[11rem] xl:left-[10.5rem] xl:w-[68%] 2xl:w-[76%]"
             >
               <input
                 className="slider w-[98%] h-[5px] mt-8 sm:h-[7px] xl:h-[8px] 2xl:h-[9.4px]"
@@ -81,7 +81,7 @@ export default function App() {
             className="order-1 xl:order-3 mb-8 xl:ml-[6.5rem] xl:mt-[-10rem] xl:p-[0.5rem] xl:mb-[11rem]"
           >
             <a href="https://www.google.com/">
-              <button className="ml-[0.3rem] w-[16.1rem] text-[1.25rem] bg-[#23366F] p-3 rounded-full xl:text-[1rem] xl:p-[0.5rem] xl:w-[10rem] xl:py-3">
+              <button className="ml-[0.3rem] w-[16.1rem] text-[1.25rem] bg-[#23366F] p-3 rounded-full xl:ml-0 xl:text-[1rem] xl:p-[0.5rem] xl:w-[10rem] xl:py-3">
                 Get a quote now
               </button>
             </a>

@@ -5,7 +5,7 @@ import Circle from "./components/Circle";
 export default function App() {
   const [sliderValue, setSliderValue] = useState(1);
 
-  const [sliderText, setSliderText] = useState("495");
+  const [sliderText, setSliderText] = useState("99");
   const [sliderClass, setSliderClass] = useState("half");
 
   const handleSliderChange = (e) => {

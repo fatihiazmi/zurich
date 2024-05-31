@@ -197,8 +197,44 @@ body {
   }
 }
 
-@media (min-width: 2338px) {
+@media (min-width: 1480px) {
+  #slider-container input {
+    height: 9px;
+  }
+}
+
+@media (min-width: 1445px) {
+  #slider-container input {
+    height: 9px;
+  }
+}
+
+@media (min-width: 1527px) {
   #slider-container input {
     height: 10px;
+  }
+}
+
+@media (min-width: 1527px) {
+  #slider-container input {
+    height: 11px;
+  }
+}
+
+@media (min-width: 1640px) {
+  #slider-container input {
+    height: 13px;
+  }
+}
+
+@media (min-width: 1644px) {
+  #slider-container input {
+    height: 12px;
+  }
+}
+
+@media (min-width: 2338px) {
+  #slider-container input {
+    height: 12px;
   }
 }

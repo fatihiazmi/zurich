@@ -56,17 +56,17 @@ export default function App() {
             </Circle>
             <div
               id="slider-container"
-              className="w-full px-6 xl:relative xl:px-0 xl:top-[-8rem] left-[10.5rem] xl:w-[68%] 2xl:w-[72%]"
+              className="w-full px-6 xl:relative xl:px-0 xl:top-[-8rem] left-[10.5rem] xl:w-[68%] 2xl:w-[76%]"
             >
               <input
-                className="slider w-[98%] h-[4px] mt-8 sm:h-[6px] xl:h-[7px] 2xl:h-[9.4px]"
+                className="slider w-[98%] h-[5px] mt-8 sm:h-[7px] xl:h-[8px] 2xl:h-[9.4px]"
                 onChange={handleSliderChange}
                 type="range"
                 min={1}
                 defaultValue={1}
                 max={3}
               />
-              <div className="flex relative z-10 justify-between top-2 xl:top-[0.5rem]">
+              <div className="flex relative z-10 justify-between top-2 xl:top-[0.5rem] xl:w-[97%]">
                 <p className="xl:text-[1.3rem]">12,000KM</p>
                 <p className="xl:text-[1.3rem]">6,000KM</p>
                 <p className="xl:text-[1.3rem]">3,000KM</p>
